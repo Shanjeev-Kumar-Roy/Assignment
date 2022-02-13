@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Shizuru', cursive;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Redressed', cursive;
+    color: orangered;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 2%;
+    padding: 2%;
+    float: left;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.header {
+    background-image: url("images/header-bg.png");
+}
+
+.biography {
+    background-image: url("images/biography-bg.png");
+}
+
+.hire-me {
+    height: 40px;
+    width: 120px;
+    background-color: coral;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.download-resume {
+    height: 40px;
+    width: 260px;
+    background-color: coral;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+section {
+    height: 100vh;
+}
+
+.latest {
+    background-image: url("images/latest-work-bg.png");
+    padding-top: 200px;
+    height: 700px;
+}
+
+.latest-work {
+    float: left;
+    width: 28%;
+    margin: 2.5%;
+}
+
+.latest-work img {
+    width: 100%;
+}
+
+.client {
+    background-image: url("images/footer-bg.png");
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    height: 700px;
+}
+
+.box {
+    border: 5px solid orangered;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.footer {
+    margin-top: 0;
+}
